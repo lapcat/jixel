@@ -11,6 +11,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52BC8CF81FF2D541007A41A9 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		52BF5CAC1FE6F65000C15854 /* jixel */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = jixel; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BF5CAF1FE6F65000C15854 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		52BF5CB61FE6FA9F00C15854 /* Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = "<group>"; };
@@ -22,6 +23,7 @@
 		52BF5CA31FE6F65000C15854 = {
 			isa = PBXGroup;
 			children = (
+				52BC8CF81FF2D541007A41A9 /* LICENSE.txt */,
 				52BF5CAF1FE6F65000C15854 /* main.m */,
 				52BF5CB71FE6FA9F00C15854 /* Debug.xcconfig */,
 				52BF5CB81FE6FA9F00C15854 /* Release.xcconfig */,
