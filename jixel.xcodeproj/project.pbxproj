@@ -1,0 +1,155 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52BF5CB01FE6F65000C15854 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BF5CAF1FE6F65000C15854 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52BF5CAC1FE6F65000C15854 /* jixel */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = jixel; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BF5CAF1FE6F65000C15854 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52BF5CB61FE6FA9F00C15854 /* Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = "<group>"; };
+		52BF5CB71FE6FA9F00C15854 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		52BF5CB81FE6FA9F00C15854 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		52BF5CA31FE6F65000C15854 = {
+			isa = PBXGroup;
+			children = (
+				52BF5CAF1FE6F65000C15854 /* main.m */,
+				52BF5CB71FE6FA9F00C15854 /* Debug.xcconfig */,
+				52BF5CB81FE6FA9F00C15854 /* Release.xcconfig */,
+				52BF5CB61FE6FA9F00C15854 /* Shared.xcconfig */,
+				52BF5CAD1FE6F65000C15854 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52BF5CAD1FE6F65000C15854 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52BF5CAC1FE6F65000C15854 /* jixel */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52BF5CAB1FE6F65000C15854 /* jixel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BF5CB31FE6F65000C15854 /* Build configuration list for PBXNativeTarget "jixel" */;
+			buildPhases = (
+				52BF5CA81FE6F65000C15854 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jixel;
+			productName = jixel;
+			productReference = 52BF5CAC1FE6F65000C15854 /* jixel */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52BF5CA41FE6F65000C15854 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Jeff Johnson";
+				TargetAttributes = {
+					52BF5CAB1FE6F65000C15854 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 52BF5CA71FE6F65000C15854 /* Build configuration list for PBXProject "jixel" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 52BF5CA31FE6F65000C15854;
+			productRefGroup = 52BF5CAD1FE6F65000C15854 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52BF5CAB1FE6F65000C15854 /* jixel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52BF5CA81FE6F65000C15854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BF5CB01FE6F65000C15854 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		52BF5CB11FE6F65000C15854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52BF5CB61FE6FA9F00C15854 /* Shared.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		52BF5CB21FE6F65000C15854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52BF5CB61FE6FA9F00C15854 /* Shared.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		52BF5CB41FE6F65000C15854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52BF5CB71FE6FA9F00C15854 /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		52BF5CB51FE6F65000C15854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52BF5CB81FE6FA9F00C15854 /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52BF5CA71FE6F65000C15854 /* Build configuration list for PBXProject "jixel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BF5CB11FE6F65000C15854 /* Debug */,
+				52BF5CB21FE6F65000C15854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52BF5CB31FE6F65000C15854 /* Build configuration list for PBXNativeTarget "jixel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BF5CB41FE6F65000C15854 /* Debug */,
+				52BF5CB51FE6F65000C15854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52BF5CA41FE6F65000C15854 /* Project object */;
+}
